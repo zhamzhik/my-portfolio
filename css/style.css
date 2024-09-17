@@ -1,23 +1,17 @@
 body {
     font-family: "Inter", sans-serif;
 }
-
 .navbar {
-    max-width: 870px;
-    width: 100%;
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
 .nav-list {
     display: flex;
     align-items: center;
     list-style: none;
     padding: 0;
 }
-
 .nav-link {
     text-decoration: none;
     color: #bf7506;
@@ -25,4 +19,66 @@ body {
     font-size: 16px;
     line-height: 150%;
     font-weight: 400;
+}
+.container {
+    max-width: 870px;
+    width: 100%;
+    margin: auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 70px 0;
+}
+.header-text {
+    margin-left: 27px;
+}
+.header-photo {
+    height: 212px;
+    width: 240px;
+}
+.header-srtrong {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 125%;
+}
+.header-heading {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 135%;
+    letter-spacing: -0.02em;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.header-primary {
+    color: #bf7506;
+}
+.social-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.social-link {
+    display: inline-block;
+    padding: 8px;
+}
+.header-links {
+    display: flex;
+    align-items: center;
+}
+.cv-download {
+    margin-left: 55px;
+    align-items: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #211b12;
+    display: flex;
+    border-bottom: 2px solid #bf7506;
+}
+.cv-icon {
+    margin-right: 4px;
 }

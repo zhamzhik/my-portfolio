@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar container">
         <img src="images/Union.svg" alt="Logo">
         <nav class="navigation">
             <ul class="nav-list">
@@ -21,5 +22,30 @@
             </ul>
         </nav>
     </div>
+    <!--  ./navbar -->
+
+    <header class="header container">
+        <img src="images/avatar.png" alt="Света Жамьянова" class="header-photo">
+        <div class="header-text">
+            <strong class="header-srtrong">Привет 👋</strong>
+            <h1 class="header-heading">
+                <span class="header-primary">Я фронтенд-разработчик</span> <br>
+                Меня зовут Света Жамьянова и я делаю сайты для людей и компаний
+            </h1>
+            <div class="header-links">
+                <ul class="social-list">
+                    <li class="social-item"><a href="" class="social-link"><img src="images/Icons/linkedin.svg" alt="linkedin" class="social-logo"></a></li>
+                    <li class="social-item"><a href="" class="social-link"><img src="images/Icons/twitter.svg" alt="twitter" class="social-logo"></a></li>
+                    <li class="social-item"><a href="" class="social-link"><img src="images/Icons/github.svg" alt="github" class="social-logo"></a></li>
+                    <li class="social-item"><a href="" class="social-link"><img src="images/Icons/stackoverflow.svg" alt="stackoverflow" class="social-logo"></a></li>
+                    <li class="social-item"><a href="" class="social-link"><img src="images/Icons/youtube.svg" alt="youtube" class="social-logo"></a></li>
+                </ul>
+                <a href="" class="cv-download" download>
+                    <img src="images/Icons/Vector.svg" alt="download-icon" class="cv-icon">
+                    <span class="cv-text">Скачать резюме</span>
+                </a>
+            </div>
+        </div>
+    </header>
 </body>
 </html>
